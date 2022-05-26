@@ -1,0 +1,104 @@
+2022-05-26 12:07:56.303 -07:00 [INF] Now listening on: https://localhost:7024
+2022-05-26 12:07:56.342 -07:00 [INF] Now listening on: http://localhost:5024
+2022-05-26 12:07:56.347 -07:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-05-26 12:07:56.348 -07:00 [INF] Hosting environment: Development
+2022-05-26 12:07:56.349 -07:00 [INF] Content root path: C:\Projects\BookStoreApp\BookStoreApp.API\
+2022-05-26 12:31:34.038 -07:00 [INF] Now listening on: https://localhost:7024
+2022-05-26 12:31:34.083 -07:00 [INF] Now listening on: http://localhost:5024
+2022-05-26 12:31:34.091 -07:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-05-26 12:31:34.094 -07:00 [INF] Hosting environment: Development
+2022-05-26 12:31:34.095 -07:00 [INF] Content root path: C:\Projects\BookStoreApp\BookStoreApp.API\
+2022-05-26 12:59:24.125 -07:00 [INF] Now listening on: https://localhost:7024
+2022-05-26 12:59:24.178 -07:00 [INF] Now listening on: http://localhost:5024
+2022-05-26 12:59:24.186 -07:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-05-26 12:59:24.187 -07:00 [INF] Hosting environment: Development
+2022-05-26 12:59:24.188 -07:00 [INF] Content root path: C:\Projects\BookStoreApp\BookStoreApp.API\
+2022-05-26 13:00:13.961 -07:00 [ERR] An unhandled exception has occurred while executing the request.
+AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+List`1 -> IEnumerable`1
+System.Collections.Generic.List`1[[BookStoreApp.API.Data.Author, BookStoreApp.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] -> System.Collections.Generic.IEnumerable`1[[BookStoreApp.API.Models.Author.AuthorReadOnlyDto, BookStoreApp.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+ ---> AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Author -> AuthorReadOnlyDto
+BookStoreApp.API.Data.Author -> BookStoreApp.API.Models.Author.AuthorReadOnlyDto
+   at lambda_method45(Closure , Author , AuthorReadOnlyDto , ResolutionContext )
+   at lambda_method44(Closure , Object , IEnumerable`1 , ResolutionContext )
+   --- End of inner exception stack trace ---
+   at lambda_method44(Closure , Object , IEnumerable`1 , ResolutionContext )
+   at BookStoreApp.API.Controllers.AuthorsController.GetAuthors() in C:\Projects\BookStoreApp\BookStoreApp.API\Controllers\AuthorsController.cs:line 36
+   at lambda_method6(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-05-26 13:01:59.259 -07:00 [INF] Now listening on: https://localhost:7024
+2022-05-26 13:01:59.299 -07:00 [INF] Now listening on: http://localhost:5024
+2022-05-26 13:01:59.306 -07:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-05-26 13:01:59.308 -07:00 [INF] Hosting environment: Development
+2022-05-26 13:01:59.309 -07:00 [INF] Content root path: C:\Projects\BookStoreApp\BookStoreApp.API\
+2022-05-26 13:02:11.888 -07:00 [ERR] An unhandled exception has occurred while executing the request.
+AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+List`1 -> IEnumerable`1
+System.Collections.Generic.List`1[[BookStoreApp.API.Data.Author, BookStoreApp.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] -> System.Collections.Generic.IEnumerable`1[[BookStoreApp.API.Models.Author.AuthorReadOnlyDto, BookStoreApp.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+ ---> AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Author -> AuthorReadOnlyDto
+BookStoreApp.API.Data.Author -> BookStoreApp.API.Models.Author.AuthorReadOnlyDto
+   at lambda_method45(Closure , Author , AuthorReadOnlyDto , ResolutionContext )
+   at lambda_method44(Closure , Object , IEnumerable`1 , ResolutionContext )
+   --- End of inner exception stack trace ---
+   at lambda_method44(Closure , Object , IEnumerable`1 , ResolutionContext )
+   at BookStoreApp.API.Controllers.AuthorsController.GetAuthors() in C:\Projects\BookStoreApp\BookStoreApp.API\Controllers\AuthorsController.cs:line 36
+   at lambda_method6(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-05-26 13:02:37.240 -07:00 [INF] Now listening on: https://localhost:7024
+2022-05-26 13:02:37.269 -07:00 [INF] Now listening on: http://localhost:5024
+2022-05-26 13:02:37.275 -07:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-05-26 13:02:37.277 -07:00 [INF] Hosting environment: Development
+2022-05-26 13:02:37.277 -07:00 [INF] Content root path: C:\Projects\BookStoreApp\BookStoreApp.API\
+2022-05-26 13:11:08.891 -07:00 [INF] Now listening on: https://localhost:7024
+2022-05-26 13:11:08.930 -07:00 [INF] Now listening on: http://localhost:5024
+2022-05-26 13:11:08.938 -07:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-05-26 13:11:08.939 -07:00 [INF] Hosting environment: Development
+2022-05-26 13:11:08.940 -07:00 [INF] Content root path: C:\Projects\BookStoreApp\BookStoreApp.API\
+2022-05-26 13:33:48.340 -07:00 [INF] Now listening on: https://localhost:7024
+2022-05-26 13:33:48.381 -07:00 [INF] Now listening on: http://localhost:5024
+2022-05-26 13:33:48.389 -07:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-05-26 13:33:48.390 -07:00 [INF] Hosting environment: Development
+2022-05-26 13:33:48.391 -07:00 [INF] Content root path: C:\Projects\BookStoreApp\BookStoreApp.API\
+2022-05-26 13:34:19.126 -07:00 [WRN] Record with id %s not found
+2022-05-26 13:38:24.662 -07:00 [INF] Now listening on: https://localhost:7024
+2022-05-26 13:38:24.705 -07:00 [INF] Now listening on: http://localhost:5024
+2022-05-26 13:38:24.712 -07:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-05-26 13:38:24.722 -07:00 [INF] Hosting environment: Development
+2022-05-26 13:38:24.723 -07:00 [INF] Content root path: C:\Projects\BookStoreApp\BookStoreApp.API\
+2022-05-26 13:38:47.513 -07:00 [WRN] Record with id 5 not found
