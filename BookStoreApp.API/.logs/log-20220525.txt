@@ -1,0 +1,99 @@
+2022-05-25 16:18:02.664 -07:00 [INF] Now listening on: https://localhost:7024
+2022-05-25 16:18:02.714 -07:00 [INF] Now listening on: http://localhost:5024
+2022-05-25 16:18:02.718 -07:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-05-25 16:18:02.719 -07:00 [INF] Hosting environment: Development
+2022-05-25 16:18:02.720 -07:00 [INF] Content root path: C:\Projects\BookStoreApp\BookStoreApp.API\
+2022-05-25 16:18:10.763 -07:00 [INF] Entered Get
+2022-05-25 16:18:10.796 -07:00 [ERR] Fatal Error Occurred
+System.Exception: Exception of type 'System.Exception' was thrown.
+   at BookStoreApp.API.Controllers.WeatherForecastController.Get() in C:\Projects\BookStoreApp\BookStoreApp.API\Controllers\WeatherForecastController.cs:line 28
+2022-05-25 16:18:22.655 -07:00 [ERR] An unhandled exception has occurred while executing the request.
+System.Exception: Exception of type 'System.Exception' was thrown.
+   at BookStoreApp.API.Controllers.WeatherForecastController.Get() in C:\Projects\BookStoreApp\BookStoreApp.API\Controllers\WeatherForecastController.cs:line 28
+   at lambda_method2(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-05-25 16:19:56.723 -07:00 [INF] Now listening on: https://localhost:7024
+2022-05-25 16:19:56.753 -07:00 [INF] Now listening on: http://localhost:5024
+2022-05-25 16:19:56.761 -07:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-05-25 16:19:56.762 -07:00 [INF] Hosting environment: Development
+2022-05-25 16:19:56.762 -07:00 [INF] Content root path: C:\Projects\BookStoreApp\BookStoreApp.API\
+2022-05-25 16:24:34.173 -07:00 [INF] Entered Get
+2022-05-25 16:24:34.206 -07:00 [ERR] Fatal Error Occurred
+System.Exception: Exception of type 'System.Exception' was thrown.
+   at BookStoreApp.API.Controllers.WeatherForecastController.Get() in C:\Projects\BookStoreApp\BookStoreApp.API\Controllers\WeatherForecastController.cs:line 28
+2022-05-25 16:24:39.522 -07:00 [ERR] An unhandled exception has occurred while executing the request.
+System.Exception: Exception of type 'System.Exception' was thrown.
+   at BookStoreApp.API.Controllers.WeatherForecastController.Get() in C:\Projects\BookStoreApp\BookStoreApp.API\Controllers\WeatherForecastController.cs:line 28
+   at lambda_method2(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-05-25 16:49:31.263 -07:00 [INF] Now listening on: https://localhost:7024
+2022-05-25 16:49:31.303 -07:00 [INF] Now listening on: http://localhost:5024
+2022-05-25 16:49:31.310 -07:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-05-25 16:49:31.311 -07:00 [INF] Hosting environment: Development
+2022-05-25 16:49:31.312 -07:00 [INF] Content root path: C:\Projects\BookStoreApp\BookStoreApp.API\
+2022-05-25 16:50:02.667 -07:00 [INF] Entered Get
+2022-05-25 16:50:02.701 -07:00 [ERR] Fatal Error Occurred
+System.Exception: Exception of type 'System.Exception' was thrown.
+   at BookStoreApp.API.Controllers.WeatherForecastController.Get() in C:\Projects\BookStoreApp\BookStoreApp.API\Controllers\WeatherForecastController.cs:line 28
+2022-05-25 16:50:10.116 -07:00 [ERR] An unhandled exception has occurred while executing the request.
+System.Exception: Exception of type 'System.Exception' was thrown.
+   at BookStoreApp.API.Controllers.WeatherForecastController.Get() in C:\Projects\BookStoreApp\BookStoreApp.API\Controllers\WeatherForecastController.cs:line 28
+   at lambda_method2(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-05-25 16:51:28.518 -07:00 [INF] Now listening on: https://localhost:7024
+2022-05-25 16:51:28.551 -07:00 [INF] Now listening on: http://localhost:5024
+2022-05-25 16:51:28.558 -07:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-05-25 16:51:28.558 -07:00 [INF] Hosting environment: Development
+2022-05-25 16:51:28.559 -07:00 [INF] Content root path: C:\Projects\BookStoreApp\BookStoreApp.API\
+2022-05-25 16:51:36.764 -07:00 [INF] Entered Get
+2022-05-25 16:51:36.795 -07:00 [ERR] Non Fatal Error Occurred
+System.Exception: Exception of type 'System.Exception' was thrown.
+   at BookStoreApp.API.Controllers.WeatherForecastController.Get() in C:\Projects\BookStoreApp\BookStoreApp.API\Controllers\WeatherForecastController.cs:line 28
