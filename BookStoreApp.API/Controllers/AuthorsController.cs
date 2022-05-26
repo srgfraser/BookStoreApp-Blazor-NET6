@@ -1,14 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
+﻿using AutoMapper;
+using BookStoreApp.API.Constants;
 using BookStoreApp.API.Data;
 using BookStoreApp.API.Models.Author;
-using AutoMapper;
-using BookStoreApp.API.Constants;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace BookStoreApp.API.Controllers
 {
@@ -35,7 +30,7 @@ namespace BookStoreApp.API.Controllers
             {
                 if (_context.Authors == null)
                 {
-                    _logger.LogWarning(Message.WarningAuthorTableNotFound);
+                    _logger.LogWarning(Message.WarningTableNotFound(TableName.Author));
                     return NotFound();
                 }
 
@@ -60,7 +55,7 @@ namespace BookStoreApp.API.Controllers
             {
                 if (_context.Authors == null)
                 {
-                    _logger.LogWarning(Message.WarningAuthorTableNotFound);
+                    _logger.LogWarning(Message.WarningTableNotFound(TableName.Author));
                     return NotFound();
                 }
 
